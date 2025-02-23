@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 99vw;
+    height: 100vh;
+    display: grid;
+    position: relative;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+}
+.box1{
+    background-color: red;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+
+}
+.box2{
+    background-color: green;
+    border: 1px solid black;
+
+    background-position: center;
+    background-size: cover;
+}
+.box3{
+    background-color: orangered;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+}
+.box4{
+    background-color: purple;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+}
+.box5{
+    background-color: palevioletred;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+}
+.box6{
+    background-color: blue;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+}
+.box7{
+    background-color: brown;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+}
+.box8{
+    background-color: plum;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+}
+.box9{
+    background-color: darkblue;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+}
+.box10{
+    background-color: yellow;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+    
+}
+.box11{
+    background-color: rgb(64, 95, 97);
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+}
+.box12{
+    background-color: rgb(63, 221, 233);
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+}

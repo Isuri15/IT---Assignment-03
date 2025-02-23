@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+}
+.rectangle1{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    background-color: red;
+    top: 0;
+    left: 0;
+    height: 50vh;
+}
+.rectangle2{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    background-color: green;
+    top: 0;
+    left: 50%;
+    height: 50vh;
+}
+.rectangle3{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    background-color: orange;
+    top: 50%;
+    left: 0;
+    height: 50vh;
+}
+.rectangle4{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    background-color: palevioletred;
+    top: 50%;
+    left: 50%;
+    height: 50vh;
+}
+
+.circle2{
+    width: 15vw;
+    height: 15vw;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.square1{
+    width:50%;
+    height: 50%;
+    background-color: red;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.square2{
+    width:50%;
+    height: 50%;
+    background-color: red;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.square3{
+    width:50%;
+    height: 50%;
+    background-color: red;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.square4{
+    width:50%;
+    height: 50%;
+    background-color: red;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#box{
+    width: 15vw;
+    height: 15vw;
+    background-color: white;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#circle{
+    width: 10vw;
+    height: 10vw;
+    background-color: red;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.square-top-left{
+    width: 15vw;
+    height: 15vw;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: white;
+    border-bottom-right-radius: 100%;
+
+}
+.square-top-right{
+    width: 15vw;
+    height: 15vw;
+    top: 0;
+    right: 0;
+    position: absolute;
+    background-color: white;
+    border-bottom-left-radius: 100%;
+}
+.square-bottom-right{
+    width: 15vw;
+    height: 15vw;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background-color: white;
+    border-top-right-radius: 100%;
+
+}
+.square-bottom-left{
+    width: 15vw;
+    height: 15vw;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-color: white;
+    border-top-left-radius: 100%;
+
+}
+
+.circle-top-right{
+    width: 10vw;
+    height: 10vw;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 100%;
+
+}
+.circle-top-left{
+    width: 10vw;
+    height: 10vw;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom-right-radius: 100%;
+
+}
+
+.circle-bottom-left{
+    width: 10vw;
+    height: 10vw;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 100%;
+
+}
+.circle-bottom-right{
+    width: 10vw;
+    height: 10vw;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top-right-radius: 100%;
+
+}
